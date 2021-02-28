@@ -40,14 +40,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_EXLM,  KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_NO,        KC_NO, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,   \
   _______,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_NO,        KC_NO, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,   \
   KC_HOME,  KC_F5,   KC_F6,   KC_F7,   KC_8,    KC_TILD,    KC_PGUP, _______, _______, _______, _______, _______,   \
-  KC_END ,  KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_INS,     KC_PGDN, _______, _______, KC_VOLD, KC_VOLU, KC_MPLY    \
+  KC_END ,  KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_INS,     KC_PGDN, _______, _______, _______, _______, _______    \
 ),         
 
 [_RAISE] = LAYOUT_ortho_4x12( \
   KC_1,    KC_2,    KC_3,     KC_4,    KC_5,    KC_NO,           KC_NO,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,  \
-  KC_F1,   KC_UP,   _______,  _______, _______, KC_NO,           KC_NO,   KC_F6, KC_MINS,  KC_EQL, KC_LBRC, KC_RBRC, \
+  KC_F1,   KC_UP,   _______,  _______, _______, KC_NO,           KC_NO,   KC_F6, KC_MINS,  KC_EQL, KC_LBRC, KC_RBRC,  \
   KC_LEFT, KC_DOWN, KC_RIGHT, _______, _______, _______,       _______, _______, _______, _______, _______,  KC_DEL,  \
-  _______, _______, _______,  _______, _______, _______,       _______, _______, KC_MNXT, KC_VOLD, _______, KC_MPLY   \
+  KC_MPRV, KC_MNXT, KC_MPLY,  KC_VOLU, KC_VOLD, KC_MUTE,       _______, _______, _______, _______, _______, _______   \
 )
 
 };
